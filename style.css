@@ -57,3 +57,24 @@ body {
 .nav-menu a.active {
   color: #6b5b4d;
 }
+mobile-menu-btn {
+  display: none;
+  background: #fef7e8;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  height: 600px;
+  background: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200') center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
