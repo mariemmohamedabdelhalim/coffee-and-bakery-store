@@ -299,3 +299,106 @@ mobile-menu-btn {
   font-size: 0.9rem;
   margin-bottom: 1rem;
 }
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #6b5b4d;
+}
+
+.btn-small {
+  background: #fef7e8;
+  border: 1px solid #ddd;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-small:hover {
+  background: #f5e8d0;
+}
+/* Footer */
+.footer {
+  background: white;
+  border-top: 1px solid #ddd;
+  padding: 3rem 0 1rem;
+  margin-top: 4rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #6b5b4d;
+  margin-bottom: 1rem;
+}
+.footer-section h3 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.footer-section p {
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.social-icons a {
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+  color: #666;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+ .hero p {
+    font-size: 1rem;
+  }
+   .categories h2,
+  .popular-items h2 {
+    font-size: 2rem;
+  }
+
+
+}
+
